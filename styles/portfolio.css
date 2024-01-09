@@ -1,35 +1,37 @@
-
-.banner{
+.banner {
     background-image: url('../B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png');
     width: 1320px;
     height: 600px;
     border-radius: 16px;
-    margin:50px auto;
+    margin: 50px auto;
 }
-.banner h3{
-    
-   color: #FFF;
-   text-align: center;
-   font-family: Merriweather;
-   font-size: 32px;
-   font-weight: 400;
-   padding-top: 180px;
+
+.banner h3 {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 180px;
 }
-.banner h1{
+
+.banner h1 {
     color: #FFF;
 
-   text-align: center;
-   font-family: Merriweather;
-   font-size: 72px;
-   font-weight: 900;
-   height: 95px;
-   padding-bottom: 220px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    height: 95px;
+    padding-bottom: 220px;
 }
-discount{
+
+discount {
     text-align: center;
 }
 
-.discount h1{
+.discount h1 {
     color: #F00;
 
     text-align: center;
@@ -37,28 +39,30 @@ discount{
     font-size: 88px;
     font-weight: 700;
 }
-.discount h6{
+
+.discount h6 {
     color: #F00;
 
-   text-align: center;
-   font-family: Inter;
-   font-size: 24px;
-   font-weight: 500;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
-.discount h2{
+
+.discount h2 {
     color: #070211;
 
-   text-align: center;
-   font-family: Inter;
-   font-size: 48px;
-   font-weight: 700;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
 }
-.discount img{
+
+.discount img {
     width: 802.9px;
     height: 500px;
     flex-shrink: 0;
-    margin:0px 298px
-
+    margin: 0px 298px
 }
 
 .welcome-party {
@@ -144,7 +148,7 @@ discount{
     font-weight: 700;
 }
 
-.location{
+.location {
     background-color: aliceblue;
     background-image: linear-gradient (180 deg, lightgray 5073);
     margin-left: 65px;
@@ -152,16 +156,17 @@ discount{
     text-align: center;
     box-shadow: azure 5px;
     padding: 50px 385px 100px 385px;
-    
+
 }
-    
-.location h3{
+
+.location h3 {
     color: D#070211;
     font-size: 32px;
     font-weight: 600;
     line-height: 56px;
 }
-.btn{
+
+.btn {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -169,149 +174,281 @@ discount{
     background: #F00;
     padding: 5px 32px;
 }
-.offer{
+
+.offer {
     display: flex;
     background: #FFF;
     width: 1300px;
     height: 600px;
-    margin: auto;
+    margin-left: 10px;
     justify-content: space-around;
 
 
 }
-.offer-one h3{
+.offer-h{
+ margin-left: 90px;
+}
+
+.offer-one h3 {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     padding-top: 90px;
-    
+
 }
-.offer-one h2{
+
+.offer-one h2 {
     color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
-padding: 5px 5px 5px 5px;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 5px 5px 5px 5px;
 }
-.offer-one p{
+
+.offer-one p {
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-width: 350px;
-height: 120px;
-padding-bottom: 100px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 350px;
+    height: 120px;
+    padding-bottom: 100px;
 }
-.offer-two{
-    border-radius: 364.844px;
-    background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+
+.offer-two {
+ 
+    background-color: #FFF;
     width: 364.844px;
     height: 364.844px;
-    border-radius: 364.844px;
+    border-radius: 100%;
     border-radius: 463px;
     border: 15px solid #F00;
     justify-content: center;
     margin-top: 90px;
+    padding: 15px;
 }
-.offer-three h2{
+
+.offer-three h2 {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
     padding-top: 90px;
 }
-.offer-three p{
+
+.offer-three p {
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
 }
-.gift{
-    margin-left: 50px;
+
+.holiday-discount {
+    width: 1320px;
+    margin: auto;
+    background-color: #FFF;
 }
-.gift h4{
+
+.holiday-discount-header h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.holiday-discount-header h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-discount-header p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    margin: auto;
+    margin-top: 10px;
+}
+
+.holiday-discount-img {
+    display: flex;
+
+}
+
+.holiday-discount-img-first {
+    margin-top: 200px;
+}
+
+.holiday-discount-img-seacond {}
+
+.holiday-discount-img-third {
+    width: 429px;
+    height: 433px;
+    flex-shrink: 0;
+    border-radius: 16px 16px 0px 0px;
+    background: url(<path-to-image>), lightgray -59.98px 0px / 151.553% 100% no-repeat;
+    padding-right: 65px;
+}
+
+.holiday-discount-img-last {
+    width: 1300px;
+    height: 200px;
+    margin: auto;
+}
+
+.gift {
+    margin-left: 37px;
+}
+
+.gift-h h4 {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
 }
-.gift h1{
+
+.gift-h h1 {
     color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
-}
-.gift p{
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-}
-.gift li {
-    display: flex;
-}
-.subscribe{
-    width: 1320px;
-height: 616px;
-border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
-margin: auto;
-}
-.icon{
-    width: 150px;
-    height: 150px;
-    padding:80px 585px 0px 585px;
-}
-.subscribe h1{
-    color: #070211;
-text-align: center;
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
-}
-.subscribe p{
-    color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-padding: opx 212px opx 212px;
-}
-.contract{
-    justify-content: space-around;
-    display: flex;
- background: #070211;;
- width: 1470px;
-height: 609px;
-}
-.contract-addres{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 40px;
-padding-left: 90px;
-padding-top: 120px;
-}
-.contract-online{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 40px;
-padding-right: 200px; 
-padding-top: 120px;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
 }
 
-.social-media{
+.gift p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.gift-img{
+        margin-left: 70px;
+}
+.img-one{
+    padding-bottom: 5px;
+
+}
+.img-two{
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.img-three{
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.img-four{
+    
+}
+.img-five{
+    padding-left: 5px;
+}
+.img-six{
+    padding-left: 5px;
+}
+.subscribe {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: auto;
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+    padding: 80px 585px 0px 585px;
+}
+
+.subscribe h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.subscribe p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0px 212px 0px 212px;
+}
+
+.search {
+    width: 500px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    padding-left: 100px;
+    margin-left: 300px;
+}
+
+.button {
+    width: 210px;
+    height: 72px;
+    border-radius: 0 50px 50px 0;
+
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.contract {
+    justify-content: space-around;
+    display: flex;
+    background: #070211;
+    ;
+    width: 1490px;
+    height: 609px;
+
+}
+
+.addres {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-left: 90px;
+    padding-top: 120px;
+}
+
+.contract-online {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-right: 200px;
+    padding-top: 120px;
+}
+
+.social-media {
     padding-top: 300px;
-    justify-content: center;
 }
