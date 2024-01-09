@@ -156,6 +156,7 @@ discount {
     text-align: center;
     box-shadow: azure 5px;
     padding: 50px 385px 100px 385px;
+    margin-top: 80px;
 
 }
 
@@ -187,6 +188,7 @@ discount {
 }
 .offer-h{
  margin-left: 90px;
+ margin-top: 80pxs;;
 }
 
 .offer-one h3 {
@@ -251,6 +253,7 @@ discount {
     width: 1320px;
     margin: auto;
     background-color: #FFF;
+    margin-top: 80px;
 }
 
 .holiday-discount-header h3 {
@@ -286,34 +289,39 @@ discount {
     margin-top: 10px;
 }
 
-.holiday-discount-img {
+.holiday-discount-img{
     display: flex;
-
+    width: 1320px;
 }
-
-.holiday-discount-img-first {
-    margin-top: 200px;
-}
-
-.holiday-discount-img-seacond {}
-
-.holiday-discount-img-third {
-    width: 429px;
-    height: 433px;
+.regtangle-one{
+    width: 1320px;
+    height: 229px;
     flex-shrink: 0;
-    border-radius: 16px 16px 0px 0px;
-    background: url(<path-to-image>), lightgray -59.98px 0px / 151.553% 100% no-repeat;
-    padding-right: 65px;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
 }
+.regtangle-two{
+    
+    width: 500px;
+    height: 600px;
+    padding-top: 100px;
+    padding-left: 1px;
+}
+.Group-one{
+    width: 600px;
+    height: 600px;
+}
+.Group-two{
+    width: 220.048px;
+    height: 220.048px;
+    transform: rotate(-34.212deg);
+    padding-top: 200px;
 
-.holiday-discount-img-last {
-    width: 1300px;
-    height: 200px;
-    margin: auto;
 }
 
 .gift {
     margin-left: 37px;
+    margin-top: 80px;
 }
 
 .gift-h h4 {
@@ -367,7 +375,9 @@ discount {
     height: 616px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-    margin: auto;
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-bottom: 80px;
 }
 
 .icon {
